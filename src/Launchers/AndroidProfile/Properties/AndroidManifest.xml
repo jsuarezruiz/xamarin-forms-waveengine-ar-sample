@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="24" android:targetSdkVersion="28" />
+	<uses-feature android:name="android.hardware.camera.ar" android:required="true" />
+	<application android:label="XamarinForms3DCarSample.Droid">
+		<meta-data android:name="com.google.ar.core" android:value="required" />
+	</application>
+	<uses-permission android:name="android.permission.CAMERA" />
+</manifest>
